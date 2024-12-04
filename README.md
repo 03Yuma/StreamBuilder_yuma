@@ -1,16 +1,6 @@
-# streambuilder_yuma
+## Jawaban soal nomer 12
+langkah 3
+Kode ini menghasilkan stream yang mengeluarkan angka acak antara 0 hingga 9 setiap detik. Stream tersebut dapat digunakan untuk mendengarkan angka acak yang diperbarui setiap detik.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+langkah 7
+Kode di atas menggunakan StreamBuilder untuk mendengarkan stream numberStream dan menampilkan data terbaru di UI. Jika ada data, ditampilkan dalam teks besar, jika ada error, mencetak pesan error, dan jika tidak ada data, menampilkan widget kosong.
